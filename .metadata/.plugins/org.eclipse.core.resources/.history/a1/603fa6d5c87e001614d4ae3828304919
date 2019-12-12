@@ -1,0 +1,15 @@
+package labA;
+
+public class LabA6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = Integer.parseInt(args[0]);
+		//System.out.print(Integer.toBinaryString(x));
+		
+		int mask1 = 2^9;
+		int mask2 = 2^10;
+		
+		System.out.print( mask1);
+	}
+}

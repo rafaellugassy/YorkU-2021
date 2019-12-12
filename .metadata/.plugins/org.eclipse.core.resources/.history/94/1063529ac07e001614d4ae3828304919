@@ -1,0 +1,11 @@
+package labA;
+
+public class LabA2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = Integer.parseInt(args[0]);
+		System.out.print(Integer.toHexString(Integer.reverse(i)));
+
+	}
+}

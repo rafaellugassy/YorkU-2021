@@ -1,0 +1,12 @@
+		.text 
+main:  	#--------------------- 
+	addi	$v0, $0, 5
+	syscall
+	add	$t0, $0, $v0
+	sll	$a0, $t0, 21
+	srl	$
+	syscall
+
+	#--------------------- 
+fini: 	jr 	$ra 
+
